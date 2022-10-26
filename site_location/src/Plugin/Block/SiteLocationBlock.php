@@ -75,7 +75,7 @@ class SiteLocationBlock extends BlockBase implements ContainerFactoryPluginInter
     return [
       '#theme' => 'site_location_block',
       '#data' => $location_info,
-      '#cache' => ['max-age' => 60],
+      '#cache' => ['max-age' => 0],
       '#attached' => ['library' => ['site_location/site_location']],
     ];
 
