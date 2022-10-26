@@ -1,0 +1,15 @@
+.slt {
+  font-size: 1.95rem;
+  text-transform: lowercase;
+  font-weight: 600;
+  padding: 5px 0;
+}
+.slp {
+  font-size: 0.85rem;
+  display: block;
+  position: absolute;
+  font-weight: 600;
+}
+.p2 {
+  padding-top: 15px;
+}

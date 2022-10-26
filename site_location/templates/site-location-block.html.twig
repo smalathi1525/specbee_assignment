@@ -1,0 +1,5 @@
+{% if data.timezone is not empty %}
+<div class="slt">{{ data.date|date('h:i A') }}</div>
+<span class="slp">{{ data.date|date('l, d F Y ') }}</span>
+<span class="slp p2">Time in {{ data.city|upper }}, {{ data.country|upper }}</span>
+{% endif %}

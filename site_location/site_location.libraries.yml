@@ -1,0 +1,5 @@
+site_location:
+  version: 1.x
+  css:
+    theme:
+      css/site_location.css: {} 
