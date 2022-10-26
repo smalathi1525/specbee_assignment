@@ -21,4 +21,4 @@ No special requirements.
 CONFIGURATION
 -------------
 
- * Configure the location settings at (/admin/config/site_location).
+ * Configure the location settings at (/admin/config/development/site_location).
